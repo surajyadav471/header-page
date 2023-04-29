@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign In</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>Sign In</h1>
+		<nav>
+			<button id="signup-btn">Sign Up</button>
+			<button id="profile-btn">Profile</button>
+		</nav>
+	</header>
+	<main>
+		<h2>Welcome back!</h2>
+		<form id="signin-form">
+			<label for="fullname-input">Full Name *</label>
+			<input type="text" id="fullname-input" required>
+
+			<label for="email-input">Email *</label>
+			<input type="email" id="email-input" required>
+
+			<label for="password-input">Password *</label>
+			<input type="password" id="password-input" required>
+
+			<label for="confirm-password-input">Confirm Password *</label>
+			<input type="password" id="confirm-password-input" required>
+
+			<button type="submit">Sign In</button>
+		</form>
+		<div id="message"></div>
+	</main>
+	<script src="script.js"></script>
+</body>
+</html>
